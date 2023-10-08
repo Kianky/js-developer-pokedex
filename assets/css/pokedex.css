@@ -7,75 +7,93 @@
 }
 
 .normal {
-    background-color: #a6a877;
+    background: rgb(120, 101, 83);
+    background: linear-gradient(90deg, rgba(120, 101, 83, 1) 0%, rgba(193, 195, 139, 1) 100%, rgba(163, 168, 119, 1) 100%);
 }
 
 .grass {
-    background-color: #77c850;
+    background: rgb(91, 154, 78);
+    background: linear-gradient(90deg, rgba(91, 154, 78, 1) 0%, rgb(53, 179, 8) 99%);
 }
 
 .fire {
-    background-color: #ee7f30;
+    background: rgb(189, 45, 34);
+    background: linear-gradient(90deg, rgba(189, 45, 34, 1) 0%, rgba(232, 170, 5, 1) 99%);
 }
 
 .water {
-    background-color: #678fee;
+    background: rgb(34, 59, 189);
+    background: linear-gradient(90deg, rgba(34, 59, 189, 1) 0%, rgb(11, 165, 144) 99%);
 }
 
 .electric {
-    background-color: #f7cf2e;
+    background: rgb(189, 168, 34);
+    background: linear-gradient(90deg, rgba(189, 168, 34, 1) 0%, rgb(207, 218, 63) 99%);
 }
 
 .ice {
-    background-color: #98d5d7;
+    background: rgb(34, 189, 189);
+    background: linear-gradient(90deg, rgba(34, 189, 189, 1) 0%, rgba(231, 255, 254, 1) 100%);
 }
 
 .ground {
-    background-color: #dfbf69;
+    background: rgb(77, 24, 3);
+    background: linear-gradient(90deg, rgba(77, 24, 3, 1) 0%, rgba(158, 107, 0, 1) 100%);
 }
 
 .flying {
-    background-color: #a98ff0;
+    background: rgb(76, 3, 77);
+    background: linear-gradient(90deg, rgba(76, 3, 77, 1) 0%, rgba(113, 0, 255, 1) 100%);
 }
 
 .poison {
-    background-color: #a040a0;
+    background: rgb(91, 32, 92);
+    background: linear-gradient(90deg, rgba(91, 32, 92, 1) 0%, rgba(255, 0, 221, 1) 100%);
 }
 
 .fighting {
-    background-color: #bf3029;
+    background: rgb(153, 33, 33);
+    background: linear-gradient(90deg, rgba(153, 33, 33, 1) 0%, rgba(255, 130, 0, 1) 100%);
 }
 
 .psychic {
-    background-color: #f65687;
+    background: rgb(88, 18, 98);
+    background: linear-gradient(90deg, rgba(88, 18, 98, 1) 0%, rgb(212, 7, 86) 100%);
 }
 
 .dark {
-    background-color: #725847;
+    background: rgb(28, 20, 29);
+    background: linear-gradient(90deg, rgba(28, 20, 29, 1) 0%, rgba(111, 57, 0, 1) 100%);
 }
 
 .rock {
-    background-color: #b8a137;
+    background: rgb(144, 132, 91);
+    background: linear-gradient(90deg, rgba(144, 132, 91, 1) 0%, rgba(187, 160, 130, 1) 100%);
 }
 
 .bug {
-    background-color: #a8b720;
+    background: rgb(107, 115, 20);
+    background: linear-gradient(90deg, rgba(107, 115, 20, 1) 0%, rgb(119, 165, 41) 100%);
 }
 
 .ghost {
-    background-color: #6e5896;
+    background: rgb(72, 68, 74);
+    background: linear-gradient(90deg, rgba(72, 68, 74, 1) 0%, rgba(182, 131, 200, 1) 100%);
 }
 
 .steel {
-    background-color: #b9b7cf;
+    background: rgb(38, 38, 38);
+    background: linear-gradient(90deg, rgba(38, 38, 38, 1) 0%, rgb(146, 146, 146) 100%);
 }
 
 .dragon {
-    background-color: #6f38f6;
+    background: rgb(168, 167, 170);
+    background: linear-gradient(90deg, rgba(168, 167, 170, 1) 0%, rgba(115, 0, 250, 1) 100%);
 }
 
 .fairy {
-    background-color: #f9aec7;
+    background: rgb(247, 186, 224);
+    background: linear-gradient(90deg, rgb(175, 148, 161) 0%, rgba(255, 175, 255, 1) 100%);
 }
 
 .pokemon {
@@ -85,6 +103,8 @@
     padding: 1rem;
     border-radius: 1rem;
 }
+
+
 
 .pokemon .number {
     color: #000;
@@ -123,8 +143,7 @@
 }
 
 .pokemon .detail img {
-    max-width: 100%;
-    height: 70px;
+    size: 3rem;
 }
 
 .pagination {

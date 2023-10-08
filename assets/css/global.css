@@ -3,15 +3,19 @@
     box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+}
+
 body {
-    background-color: #f6f8fc;
+    background-color: #8f0909;
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #e4e2e2;
 }
 
 @media screen and (min-width: 992px) {
